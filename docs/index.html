@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlowBeam Pro™ — Red Light Therapy LED Face Mask | Little Miss Mineral</title>
+    <meta name="description" content="FDA-cleared dual-wavelength LED face mask. 630-660nm red + 830-850nm near-infrared light. Wireless, soft silicone, 10-minute sessions. Same clinical wavelengths as $400 masks — for $149. Free shipping." />
+    <meta property="og:title" content="GlowBeam Pro™ — Red Light Therapy LED Face Mask | Little Miss Mineral" />
+    <meta property="og:description" content="FDA-cleared dual-wavelength LED face mask. 630-660nm red + 830-850nm near-infrared light. Wireless, soft silicone, 10-minute sessions. Same clinical wavelengths as $400 masks — for $149." />
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="https://shopify-staged-uploads.storage.googleapis.com/tmp/46285914267/files/a728675c-97c9-47eb-916f-f377ff6b9c21/cdn-hero-front.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/lmm-glowbeam-pro-pdp/assets/index-DKJZYN3b.js"></script>
+    <link rel="stylesheet" crossorigin href="/lmm-glowbeam-pro-pdp/assets/index-Hs3RlyI5.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+(function() {
+  var urlParams = new URLSearchParams(window.location.search);
+  var wtClickId = urlParams.get('wt_click_id');
+  if (wtClickId) {
+    var decorateLinks = function() {
+      var links = document.querySelectorAll('a[href*="orthocliner.myshopify.com"]');
+      links.forEach(function(link) {
+        try {
+          var url = new URL(link.href);
+          if (!url.searchParams.has('wt_click_id')) {
+            url.searchParams.set('wt_click_id', wtClickId);
+            link.href = url.toString();
+          }
+        } catch(err) {}
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', decorateLinks);
+    } else {
+      decorateLinks();
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      var observer = new MutationObserver(function() { decorateLinks(); });
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  }
+  var loadWeTracked = function() {
+    setTimeout(function() {
+      var s1 = document.createElement('script');
+      s1.src = 'https://pixel.wetracked.io/orthocliner.myshopify.com/events.js';
+      s1.async = true;
+      document.head.appendChild(s1);
+      var s2 = document.createElement('script');
+      s2.src = 'https://pixel.wetracked.io/ppt.js';
+      s2.async = true;
+      document.head.appendChild(s2);
+    }, 300);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadWeTracked);
+  } else {
+    loadWeTracked();
+  }
+})();
+    </script>
+  </body>
+</html>
